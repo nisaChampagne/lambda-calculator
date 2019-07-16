@@ -4,8 +4,8 @@ const NumberButton = (props)=> {
   return (
     <>
       {/* Display a button element rendering the data being passed down from the parent container on props */}
-      <button>{props.number}</button>
+      <button className='numberbtn' onClick={() => {props.changeData(props.number)} }>{props.number}</button>
     </>
   );
 };
-export default NumberButton;
+export default NumberButton

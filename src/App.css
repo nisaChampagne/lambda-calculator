@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.logo{
+  width: 100px;
+}
+  
+.container {
+  background: #bb1233;
+  width: 22rem;
+  border: 1px solid #ec8a8a;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem;
+  margin: 0 auto;
+ } 
+
+ .buttonHolder{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;;
+ }
+
+.numberbtn{
+  border: 2px solid green;
+  background: #113c78;
+  color: white;
+  border-radius: 50%;
+  padding: 1.5rem;
+}
+
+.numberBtnHolder{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 13rem;
+}
+
+.specialBtn{
+  background: #2061b0;
+  color: white;
+  border-radius: 50%;
+  padding: 1.5rem;
+}
+
+.specialBtnHolder{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 13rem;
+}
+  
+
+.operatorBtn{
+  background: #3db5e5;
+  color: white;
+  border-radius: 50%;
+  padding: 1.5rem;
+}
+
+.operatorBtnHolder{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: no-wrap;
+  width: 4rem;
+}
+
+.numberbtn:hover,
+.specialBtn:hover,
+.operatorBtn:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.screen{
+  background: #2d2829;
+  color: white;
+  width: 250px;
+  padding: 10px;
+  border-radius: 10px;
+  text-align:end;
+  margin-bottom: 10px;
+}
