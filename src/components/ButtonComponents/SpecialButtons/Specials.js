@@ -1,12 +1,13 @@
-import React from "react";
+import React, {useState} from "react";
 
 //import any components needed
+import {specials} from '../../../data';
 
-//Import your array data to from the provided data file
+ //Import your array data to from the provided data file
 
 const Specials = () => {
   // STEP 2 - add the imported data to state
-
+  const [specials, setspecial] = useState(specials);
   return (
     <div>
       {/* STEP 3 - Use .map() to iterate over your array data and return a button
@@ -15,3 +16,4 @@ const Specials = () => {
     </div>
   );
 };
+export default Specials;
