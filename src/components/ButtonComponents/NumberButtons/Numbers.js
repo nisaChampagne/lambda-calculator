@@ -9,7 +9,6 @@ import numbers from '../../../data';
 const Numbers = (props) => {
   // STEP 2 - add the imported data to state
   const [calcNumbers, setCalcNumber] = useState(numbers);
-  console.log(calcNumbers)
   return (
     <div className='numberBtnHolder'>
       {/* STEP 3 - Use .map() to iterate over your array data and return a button

@@ -21,12 +21,9 @@
 
  .buttonHolder{
    display: flex;
-   flex-direction: column;
-   justify-content: center;;
  }
 
 .numberbtn{
-  border: 2px solid green;
   background: #113c78;
   color: white;
   border-radius: 50%;
