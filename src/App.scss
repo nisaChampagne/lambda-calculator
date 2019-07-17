@@ -10,12 +10,12 @@
 .container {
   background: #bb1233;
   width: 22rem;
-  border: 1px solid #ec8a8a;
+  border: 2px solid black;
   border-radius: 12px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 3rem;
+  padding: 2.5rem;
   margin: 0 auto;
  } 
 
@@ -26,28 +26,34 @@
 .numberbtn{
   background: #113c78;
   color: white;
+  font-size: 13px;
   border-radius: 50%;
   padding: 1.5rem;
+  box-shadow: 5px 5px black;
 }
 
 .numberBtnHolder{
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  margin: 2px 5px 10px 0;
   width: 13rem;
 }
 
 .specialBtn{
   background: #2061b0;
   color: white;
+  font-size: 13px;
   border-radius: 50%;
   padding: 1.5rem;
+  box-shadow: 5px 5px black;
 }
 
 .specialBtnHolder{
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  margin: 2px 5px 10px 0;
   width: 13rem;
 }
   
@@ -56,7 +62,10 @@
   background: #3db5e5;
   color: white;
   border-radius: 50%;
+  font-size: 13px;
   padding: 1.5rem;
+  box-shadow: 5px 5px black;
+
 }
 
 .operatorBtnHolder{
